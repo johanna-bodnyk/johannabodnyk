@@ -1,0 +1,48 @@
+/////////////////////////////////////////////////////////
+// Media Queries
+/////////////////////////////////////////////////////////
+
+// NOTE: Grid-related media queries are in _grid.scss
+
+@media (max-width: $max-width-medium) {
+
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        margin-top: 0.1em;
+    }
+
+    nav a {
+        font-size: 1.1em;
+    }
+
+    label {
+        text-align: left;
+    }
+}
+
+@media (max-width: $max-width-small) {
+    
+    body {
+        padding: 1.25em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    // Pull h2 top margins tighter under nav on homepage
+    .lead {
+        margin-top: 0px;
+        font-size: 1.4em;
+        line-height: 1.5em;
+    }
+
+    // And resume and contact pages
+    .col-8 h2 {
+        margin-top: 0px;
+    }
+
+}

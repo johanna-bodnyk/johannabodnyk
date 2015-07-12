@@ -1,0 +1,77 @@
+/////////////////////////////////////////////////////////
+// Responsive Grid Styles
+/////////////////////////////////////////////////////////
+
+// NOTE: I've chosen a 12 column grid to allow for 2, 3 and 4 column layouts (nav uses 4 columns, portfolio uses 2, and other pages use 3 (with the first two combined)). I've defined all 12 column sizes for the base (desktop) layout size using a @for loop, as this seemed most efficient. For smaller sizes, I've only adjusted those column sizes I'm actually using (3, 4, 6, and 8).
+
+
+// Clear rows
+.row {
+    margin-top: 10px;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+// Float columns
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+
+// Add margins between columns (except for first column)
+[class*='col-'] ~ [class*='col-'] {
+    margin-left: $col-margin;
+}
+
+@function colCalc($n) {
+    @return $col-width * $n + $col-margin * ($n - 1);
+}
+
+// Generate individual column class widths
+@for $n from 1 through $num-cols {
+    .col-#{$n} {
+        width: colCalc($n);
+    }
+}
+
+// Stack 8-4 columns at medium width 
+@media (max-width: $max-width-medium) {
+    .col-8, .col-4 {
+        width: colCalc($num-cols);
+
+        & ~ & {
+            margin-left: 0px; // Need sibling selector to override specificity of original rule on line 21 above
+        }
+    }
+
+    aside.col-4 {
+        margin-top: 1.5em;
+    }
+}
+
+// Stack 6-6 and 3-3-3-3 columns at small widths
+@media (max-width: $max-width-small) {
+    .col-6 {
+        width: colCalc($num-cols);
+
+        & ~ & {
+            margin-left: 0px; // Need sibling selector to override specificity of original rule on line 21 above
+        }
+    }
+
+    // 3-3-3-3 columns turn into 6-6
+    .col-3 {
+        width: colCalc($num-cols/2);
+        &:nth-child(odd) {
+            margin-left: 0px;
+        }
+    }
+
+}
+
+
