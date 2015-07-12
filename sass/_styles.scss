@@ -7,7 +7,7 @@
 
 html {
     box-sizing: border-box;
-    background-color: $color-dark;
+    background-color: $color-lighter;
     height: 100%;
 }
 
@@ -36,16 +36,24 @@ main.row {
     margin-top: 1.5em;
 }
 
+
+
 h1, h2, h3, nav a {
     font-family: $font-header;
+    font-weight: 700;
 }
+
 
 h2 ~ h2 {
     margin-top: 1.5em;
 }
 
+h2 {
+    color: $color-accent;
+}
+
 h3 {
-    color: $color-primary;
+    color: $color-dark;
 }
 
 p {
@@ -54,14 +62,15 @@ p {
 
 aside  {
     background-color: $color-light;
-    @include rounded-corners;
-    @include drop-shadow;
+    // @include rounded-corners;
+    // @include drop-shadow;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: .75em;
 
     // Increase link and h3 legibility on darker aside background
     h3 {
-        color: darken($color-primary, 7%);
+        color: darken($color-dark, 7%);
     }
     a {
         font-weight: bold;
@@ -112,8 +121,8 @@ nav {
     }
 
     li {
-        @include rounded-corners;
-        background-color: $color-primary;
+        // @include rounded-corners;
+        background-color: $color-dark;
         text-align: center;
 
         &:hover {
@@ -121,7 +130,8 @@ nav {
         }
 
         &.active {
-            background-color: $color-secondary;
+            background-color: $color-light;
+            // @include standard-border;
         }
     }
 
@@ -141,6 +151,30 @@ nav {
     }
 }
 
+// Footer
+
+footer.row {
+    // font-size: 1.2em;
+    margin-top: 100px;
+
+    a {
+        // font-weight: bold;
+    }
+}
+
+#social-links {
+    text-align: center;
+    img {
+        width: 30px;
+        margin: 0 10px;
+    }
+}
+
+#contact-link {
+    text-align: right;
+}
+
+
 // Homepage
 
 .lead {
@@ -157,6 +191,13 @@ nav {
     margin-top: 1em;
 }
 
+.headshot {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
 // Portfolio
 
 #portfolio {
@@ -164,9 +205,9 @@ nav {
         margin-top: 1.5em;
         margin-bottom: 0px;
         text-transform: uppercase;
-        font-size: 0.9em;
+        font-size: 1em;
         letter-spacing: 0.05em;
-        color: $color-primary;
+        color: $color-accent;
         @include divider-border('bottom');
     }
 
@@ -228,7 +269,7 @@ label {
 
 input[type='submit'] {
     float: right;
-    background-color: $color-primary;
+    background-color: $color-accent;
     font-family: $font-header;
     color: $color-lighter;
     padding: 0.5em 1em;
@@ -236,4 +277,19 @@ input[type='submit'] {
     &:hover {
         background-color: $color-secondary;
     }
+}
+
+#contact aside p {
+
+    clear: both;
+    margin-left: 10px;
+
+    img {
+        width: 25px;
+        display: block;
+        float: left;
+        margin-right: 7px;
+        margin-bottom: 20px;
+    }
+
 }

@@ -4,18 +4,22 @@
 
 
 // Fonts
-$font-header: 'Droid Serif', serif;
+// $font-header: 'Droid Serif', serif;
+$font-header: 'Roboto Condensed', serif;
 $font-copy: 'Raleway', sans-serif;
+
 
 
 // Colors
 /* Thanks to https://color.adobe.com/DermInc-02-color-theme-457729/ */
-$color-primary: #1D7872;
-$color-secondary: #71B095;
-$color-accent: #D13F32;
-$color-light: #DEDBA7;
-$color-lighter: lighten(#DEDBA7, 20%);
-$color-dark: #1A212C;
+$color-primary: #B4C952;
+// $color-secondary: lighten(#B4C952, 30%);
+$color-secondary: lighten(#445566, 20%);
+$color-accent: #B02E78;
+// $color-light: lighten(#B4C952, 30%);
+$color-light: lighten(#ddeeff, 3%);
+$color-lighter: #FFF;
+$color-dark: #445566;
 
 
 // Corners and shadows
