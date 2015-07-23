@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Johanna Bodnyk | Contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Johanna Bodnyk: <span>Web Developer</span></h1>
-
-        <nav class="row">
-            <ul>
-                <li class="col-3"><a href="index.html">Home</a></li>
-                <li class="col-3"><a href="portfolio.html">Portfolio</a></li>
-                <li class="col-3"><a href="resume.html">Resume</a></li>
-                <li class="col-3 active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include('_top.php'); ?>
     <main class="row" id="contact">
         <form action="#" class="col-8">
             <h2>Contact me&hellip;</h2>
@@ -46,20 +26,5 @@
             <p><a href="#"><img src="images/piazza.png" title="Piazza" alt="Piazza">Piazza Careers</a></p>
             </ul>
         </aside>
-    </main>    
-<footer class="row">
-    <div class="col-3">
-        &copy; 2015 Johanna Bodnyk
-    </div>
-    <div class="col-6" id="social-links">
-        <a href="#"><img src="images/github.png" title="Github" alt="Github"></a>
-        <a href="#"><img src="images/linkedin.png" title="LinkedIn" alt="LinkedIn"></a>
-        <a href="#"><img src="images/twitter.png" title="Twitter" alt="Twitter"></a>
-        <a href="#"><img src="images/piazza.png" title="Piazza" alt="Piazza"></a>
-    </div>
-    <div class="col-3" id="contact-link">
-        <a href="contact">Contact</a>
-    </div>
-</footer>    
-</body>
-</html>
+    </main>
+<?php include('_bottom.php'); ?>
