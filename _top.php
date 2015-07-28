@@ -26,7 +26,7 @@
                     </li>
 
 
-                <?php endforeach; ?>1
+                <?php endforeach; ?>
             </ul>
         </nav>
     </header>

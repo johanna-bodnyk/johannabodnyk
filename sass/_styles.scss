@@ -21,10 +21,10 @@ body {
     // Container sizing
     width: 86%;
     max-width: 1200px;
-    //min-height: 100%;
+    min-height: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 2em;
+    padding: 2em 2em 0;
 
     // Base color and text styles
     font-family: $font-copy;
@@ -35,7 +35,7 @@ body {
 
 .wrapper {
     min-height: 100%;
-    margin: 0 auto -155px;
+    margin: 0 auto -100px;
 }
 
 main.row {
@@ -43,9 +43,8 @@ main.row {
 }
 
 footer, .push {
-    height: 35px;
+    height: 100px;
 }
-
 
 h1, h2, h3, nav a {
     font-family: $font-header;
@@ -108,6 +107,7 @@ a {
 
 h1 {
     margin-top: 0.5em;
+    margin-top: 0;
     font-size: 2.5em;
     line-height: 1.5em;
 
@@ -164,7 +164,9 @@ nav {
 
 footer.row {
     // font-size: 1.2em;
-    margin-top: 100px;
+    //margin-top: 100px;
+    margin-top: 0;
+    padding-top: 50px;
 
     a {
         // font-weight: bold;

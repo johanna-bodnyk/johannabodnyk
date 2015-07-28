@@ -1,6 +1,19 @@
 <?php include('_top.php'); ?>
+
+<?php
+    echo '<pre>';
+    print_r($_POST);
+    echo '</pre>';
+
+    $to = 'bodnyk@gmail.com';
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    $headers = 'Reply-To:' . $_POST['email'] . '\r\n';
+    mail($to, $subject, $message, $headers);
+
+?>
     <main class="row" id="contact">
-        <form action="#" class="col-8">
+        <form class="col-8" method="post">
             <h2>Contact me&hellip;</h2>
             <div class="row">
                 <label for="subject" class="col-4">Subject</label>
