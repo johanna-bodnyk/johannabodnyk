@@ -9,7 +9,14 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     $headers = 'Reply-To:' . $_POST['email'] . '\r\n';
-    mail($to, $subject, $message, $headers);
+    $success = mail($to, $subject, $message, $headers);
+
+    if ($success) {
+        echo 'Your mail was sent';
+    }
+    else {
+        echo 'Uh oh it didn\'t work :( ';
+    }
 
 ?>
     <main class="row" id="contact">
