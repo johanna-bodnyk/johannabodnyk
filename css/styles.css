@@ -441,7 +441,7 @@ body {
   padding: 2em 2em 0;
   font-family: "Raleway", sans-serif;
   line-height: 1.5em;
-  color: #445566;
+  color: #223344;
   background-color: #FFF; }
 
 .wrapper {
@@ -462,21 +462,21 @@ h2 ~ h2 {
   margin-top: 1.5em; }
 
 h2 {
-  color: #B02E78; }
+  color: #dd4923; }
 
 h3 {
-  color: #445566; }
+  color: #223344; }
 
 p {
   margin: 0; }
 
 aside {
-  background-color: #ecf6ff;
+  background-color: rgba(136, 153, 170, 0.2);
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: .75em; }
   aside h3 {
-    color: #364351; }
+    color: #16212c; }
   aside a {
     font-weight: bold; }
 
@@ -484,11 +484,11 @@ li {
   margin-bottom: 0.4em; }
 
 a {
-  color: #B02E78; }
+  color: #dd4923; }
   a:hover {
     text-decoration: none; }
   a:visited {
-    color: #d86caa; }
+    color: #eb927b; }
 
 h1 {
   margin-top: 0.5em;
@@ -497,9 +497,9 @@ h1 {
   line-height: 1.5em; }
   h1 a, h1 a:visited {
     text-decoration: none;
-    color: #445566; }
+    color: #223344; }
   h1 span {
-    color: #B02E78;
+    color: #dd4923;
     display: inline-block; }
 
 nav ul {
@@ -508,12 +508,12 @@ nav ul {
   margin: 0px; }
 
 nav li {
-  background-color: #445566;
+  background-color: #223344;
   text-align: center; }
   nav li:hover {
-    background-color: #7088a0; }
+    background-color: #556677; }
   nav li.active {
-    background-color: #ecf6ff; }
+    background-color: rgba(136, 153, 170, 0.2); }
 
 nav a, nav a:visited {
   display: inline-block;
@@ -525,7 +525,7 @@ nav a, nav a:visited {
   margin: 0px; }
 
 nav .active a {
-  color: #445566;
+  color: #223344;
   font-weight: bold; }
 
 footer.row {
@@ -563,12 +563,12 @@ footer.row {
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 0.05em;
-  color: #B02E78;
-  border-bottom: 1px dashed #445566; }
+  color: #dd4923;
+  border-bottom: 1px dashed #223344; }
 
 #portfolio h3 {
   font-size: 1.25em;
-  color: #445566;
+  color: #223344;
   margin-bottom: 0.5em; }
 
 #portfolio img {
@@ -576,13 +576,13 @@ footer.row {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
-  border: 1px solid #8fa1b4; }
+  border: 1px solid #557faa; }
 
 #resume h3 {
   margin-bottom: 0.5em; }
 
 #resume h3 ~ h3 {
-  border-top: 1px dashed #445566;
+  border-top: 1px dashed #223344;
   padding-top: 1em; }
 
 #resume aside .row {
@@ -604,7 +604,7 @@ input, textarea {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
-  border: 1px solid #8fa1b4;
+  border: 1px solid #557faa;
   padding: 5px; }
 
 label {
@@ -613,12 +613,12 @@ label {
 
 input[type='submit'] {
   float: right;
-  background-color: #B02E78;
+  background-color: #dd4923;
   font-family: "Roboto Condensed", serif;
   color: #FFF;
   padding: 0.5em 1em; }
   input[type='submit']:hover {
-    background-color: #7088a0; }
+    background-color: #556677; }
 
 #contact aside p {
   clear: both;
