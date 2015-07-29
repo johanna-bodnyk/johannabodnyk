@@ -4,22 +4,45 @@
 
 
 // Fonts
-// $font-header: 'Droid Serif', serif;
+
+// Uncomment for offline development:
+//@font-face {
+//  font-family: 'Roboto Condensed';
+//  font-weight: 700;
+//  font-style: normal;
+//  src: url('/local/Roboto-Condensed-700/Roboto-Condensed-700.eot');
+//  src: url('/local/Roboto-Condensed-700/Roboto-Condensed-700.eot?#iefix') format('embedded-opentype'),
+//  local('Roboto Condensed Bold'),
+//  local('Roboto-Condensed-700'),
+//  url('/local/Roboto-Condensed-700/Roboto-Condensed-700.woff2') format('woff2'),
+//  url('/local/Roboto-Condensed-700/Roboto-Condensed-700.woff') format('woff'),
+//  url('/local/Roboto-Condensed-700/Roboto-Condensed-700.ttf') format('truetype'),
+//  url('/local/Roboto-Condensed-700/Roboto-Condensed-700.svg#RobotoCondensed') format('svg');
+//}
+//
+//@font-face {
+//  font-family: 'Raleway';
+//  font-weight: 400;
+//  font-style: normal;
+//  src: url('/local/Raleway-regular/Raleway-regular.eot');
+//  src: url('/local/Raleway-regular/Raleway-regular.eot?#iefix') format('embedded-opentype'),
+//  local('Raleway'),
+//  local('Raleway-regular'),
+//  url('/local/Raleway-regular/Raleway-regular.woff2') format('woff2'),
+//  url('/local/Raleway-regular/Raleway-regular.woff') format('woff'),
+//  url('/local/Raleway-regular/Raleway-regular.ttf') format('truetype'),
+//  url('/local/Raleway-regular/Raleway-regular.svg#Raleway') format('svg');
+//}
+
 $font-header: 'Roboto Condensed', serif;
 $font-copy: 'Raleway', sans-serif;
 
-
-
 // Colors
-/* Thanks to https://color.adobe.com/DermInc-02-color-theme-457729/ */
-$color-primary: #B4C952;
-// $color-secondary: lighten(#B4C952, 30%);
-$color-secondary: lighten(#445566, 20%);
-$color-accent: #B02E78;
-// $color-light: lighten(#B4C952, 30%);
-$color-light: lighten(#ddeeff, 3%);
-$color-lighter: #FFF;
 $color-dark: #445566;
+$color-secondary: lighten(#445566, 20%); // nav rollover
+$color-accent: #B02E78; // links and h2s
+$color-light: #ecf6ff; // sidebars and active nav
+$color-lighter: #FFF; // page background
 
 
 // Corners and shadows

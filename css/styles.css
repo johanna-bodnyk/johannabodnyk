@@ -4,8 +4,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=Francois+One);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 html {
@@ -359,7 +357,6 @@ td,
 th {
   padding: 0; }
 
-/* Thanks to https://color.adobe.com/DermInc-02-color-theme-457729/ */
 .row {
   margin-top: 10px; }
   .row::after {
@@ -414,15 +411,13 @@ th {
 @media (max-width: 799px) {
   .col-8, .col-4 {
     width: 100%; }
-    .col-8 ~ .col-8, .col-4 ~ .col-4 {
-      margin-left: 0px; }
-  aside.col-4 {
-    margin-top: 1.5em; } }
+    [class*='col-'] ~ .col-8, [class*='col-'] ~ .col-4 {
+      margin-left: 0px; } }
 
 @media (max-width: 649px) {
   .col-6 {
     width: 100%; }
-    .col-6 ~ .col-6 {
+    [class*='col-'] ~ .col-6 {
       margin-left: 0px; }
   .col-3 {
     width: 48.5%; }
@@ -500,6 +495,9 @@ h1 {
   margin-top: 0;
   font-size: 2.5em;
   line-height: 1.5em; }
+  h1 a, h1 a:visited {
+    text-decoration: none;
+    color: #445566; }
   h1 span {
     color: #B02E78;
     display: inline-block; }
@@ -640,7 +638,9 @@ input[type='submit'] {
   nav a {
     font-size: 1.1em; }
   label {
-    text-align: left; } }
+    text-align: left; }
+  aside.col-4 {
+    margin-top: 1.5em; } }
 
 @media (max-width: 649px) {
   body {
@@ -652,4 +652,16 @@ input[type='submit'] {
     font-size: 1.4em;
     line-height: 1.5em; }
   .col-8 h2 {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  footer {
+    margin-bottom: 30px; }
+    footer [class*='col-'] {
+      width: 100%;
+      margin: 10px 0 0; }
+  #copyright {
+    text-align: center;
+    margin-top: 40px; }
+  #social-links {
+    margin-top: -66px; }
+  #contact-link {
+    display: none; } }

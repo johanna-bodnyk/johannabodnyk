@@ -1,9 +1,9 @@
 <div class="push"></div>
     </div>
 <footer class="row">
-    <div class="col-3">
+    <div class="col-3" id="copyright">
         &copy; 2015 Johanna Bodnyk
-</div>
+    </div>
     <div class="col-6" id="social-links">
         <a href="#"><img src="images/github.png" title="Github" alt="Github"></a>
         <a href="#"><img src="images/linkedin.png" title="LinkedIn" alt="LinkedIn"></a>

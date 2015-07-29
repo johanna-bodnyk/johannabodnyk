@@ -44,14 +44,11 @@
     .col-8, .col-4 {
         width: colCalc($num-cols);
 
-        & ~ & {
+        [class*='col-'] ~ & {
             margin-left: 0px; // Need sibling selector to override specificity of original rule on line 21 above
         }
     }
 
-    aside.col-4 {
-        margin-top: 1.5em;
-    }
 }
 
 // Stack 6-6 and 3-3-3-3 columns at small widths
@@ -59,10 +56,11 @@
     .col-6 {
         width: colCalc($num-cols);
 
-        & ~ & {
+        [class*='col-'] ~ & {
             margin-left: 0px; // Need sibling selector to override specificity of original rule on line 21 above
         }
     }
+
 
     // 3-3-3-3 columns turn into 6-6
     .col-3 {

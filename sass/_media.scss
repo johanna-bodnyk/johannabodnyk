@@ -21,6 +21,10 @@
     label {
         text-align: left;
     }
+
+    aside.col-4 {
+        margin-top: 1.5em;
+    }
 }
 
 @media (max-width: $max-width-small) {
@@ -30,7 +34,7 @@
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 2em;;
     }
 
     // Pull h2 top margins tighter under nav on homepage
@@ -45,4 +49,27 @@
         margin-top: 0px;
     }
 
+    // Stack and center footer elements, hide contact link
+    footer {
+
+        margin-bottom: 30px;
+
+        [class*='col-'] {
+            width: 100%;
+            margin: 10px 0 0;
+        }
+    }
+
+    #copyright {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #social-links {
+        margin-top: -66px; // Move above copyright div
+    }
+
+    #contact-link {
+        display: none;
+    }
 }

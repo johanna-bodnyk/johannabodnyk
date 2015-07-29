@@ -10,7 +10,7 @@
 <body>
 <div class="wrapper">
     <header>
-        <h1>Johanna Bodnyk: <span>Web Developer</span></h1>
+        <h1><a href="/">Johanna Bodnyk: <span>Web Developer</span></a></h1>
         <nav class="row">
             <ul>
                 <?php foreach($pages as $page): ?>
