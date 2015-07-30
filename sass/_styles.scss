@@ -293,12 +293,27 @@ input[type='submit'] {
     clear: both;
     margin-left: 10px;
 
+    // Social icons
     img {
         width: 25px;
         display: block;
         float: left;
         margin-right: 7px;
         margin-bottom: 20px;
+    }
+
+}
+
+.status-message {
+    width: 70%;
+    padding: 10px 20px 30px;
+    margin: 100px auto 0;
+    background-color: $color-light;
+    text-align: center;
+
+    h2 {
+        font-size: 2em;
+        line-height: normal;
     }
 
 }

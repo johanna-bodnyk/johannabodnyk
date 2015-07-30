@@ -2,3 +2,5 @@
 .idea/
 .htaccess
 local/*
+storage/*
+_config.php

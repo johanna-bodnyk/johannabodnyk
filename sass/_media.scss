@@ -25,6 +25,11 @@
     aside.col-4 {
         margin-top: 1.5em;
     }
+
+    .status-message {
+        width: 100%;
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: $max-width-small) {
@@ -71,5 +76,9 @@
 
     #contact-link {
         display: none;
+    }
+
+    .status-message h2 {
+        font-size: 1.8em;
     }
 }

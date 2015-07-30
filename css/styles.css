@@ -630,6 +630,16 @@ input[type='submit'] {
     margin-right: 7px;
     margin-bottom: 20px; }
 
+.status-message {
+  width: 70%;
+  padding: 10px 20px 30px;
+  margin: 100px auto 0;
+  background-color: rgba(136, 153, 170, 0.2);
+  text-align: center; }
+  .status-message h2 {
+    font-size: 2em;
+    line-height: normal; }
+
 @media (max-width: 799px) {
   body {
     width: 100%; }
@@ -640,7 +650,10 @@ input[type='submit'] {
   label {
     text-align: left; }
   aside.col-4 {
-    margin-top: 1.5em; } }
+    margin-top: 1.5em; }
+  .status-message {
+    width: 100%;
+    margin-top: 30px; } }
 
 @media (max-width: 649px) {
   body {
@@ -664,4 +677,6 @@ input[type='submit'] {
   #social-links {
     margin-top: -66px; }
   #contact-link {
-    display: none; } }
+    display: none; }
+  .status-message h2 {
+    font-size: 1.8em; } }
