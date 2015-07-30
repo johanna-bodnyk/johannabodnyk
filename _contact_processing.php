@@ -1,12 +1,14 @@
 <?php
+    # Send and log the email
 
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     $reply_to = $_POST['email'];
-    $headers = 'Reply-To:' . $reply_to . '\r\n';
+    $headers = 'From: '.$from_email."\r\n";
+    $headers .= 'Reply-To: '.$reply_to. "\r\n";
 
     # Log the message in case it doesn't get to me
-    $log_contents = "Sent: ".date('Y-m-d H:i:s')."\r\n"; // TODO: Adjust to server timezone
+    $log_contents = "Sent: ".date('Y-m-d H:i:s')."\r\n";
     $log_contents .= "Subject: ".$subject."\r\n";
     $log_contents .= "Reply-to: ".$reply_to."\r\n";
     $log_contents .= "Message: ".$message."\r\n";
