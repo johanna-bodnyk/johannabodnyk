@@ -210,26 +210,54 @@ footer.row {
 // Portfolio
 
 #portfolio {
-    h2 {
-        margin-top: 1.5em;
-        margin-bottom: 0px;
-        text-transform: uppercase;
-        font-size: 1em;
-        letter-spacing: 0.05em;
-        color: $color-accent;
-        @include divider-border('bottom');
+
+    // Keep in case I go back to having categories on this page
+    //h2 {
+    //    margin-top: 1.5em;
+    //    margin-bottom: 0px;
+    //    text-transform: uppercase;
+    //    font-size: 1em;
+    //    letter-spacing: 0.05em;
+    //    color: $color-accent;
+    //    @include divider-border('bottom');
+    //}
+
+    //h3 {
+    //    font-size: 1.25em;
+    //    color: $color-dark;
+    //    margin-bottom: 0.5em;
+    //}
+
+    .row {
+        @include divider-border('bottom'); //TODO: Fix in collapsed layout
+        padding-bottom: 30px;
     }
 
-    h3 {
+    h2 {
         font-size: 1.25em;
-        color: $color-dark;
-        margin-bottom: 0.5em;
     }
 
     img {
         max-width: 100%;
-        @include drop-shadow;
         @include standard-border;
+    }
+
+    p {
+        margin-top: .7em;
+        font-size: 15px;
+    }
+
+    ul {
+        margin: 0;
+    }
+    
+    p a {
+        font-weight: bold;
+    }
+
+    li {
+        margin-bottom: 0;
+        font-size: 15px;
     }
 }
 
@@ -261,6 +289,16 @@ footer.row {
     float: right;
     margin-top: 0px;    
     font-style: italic;
+}
+
+.fl-subhead {
+    margin-top: .5em;
+    font-style: italic;
+
+    ~ ul {
+        margin-top: 0;
+    }
+
 }
 
 // Contact

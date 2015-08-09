@@ -557,26 +557,30 @@ footer.row {
   float: left;
   margin: 0 30px 20px 0; }
 
-#portfolio h2 {
-  margin-top: 1.5em;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  font-size: 1em;
-  letter-spacing: 0.05em;
-  color: #dd4923;
-  border-bottom: 1px dashed #223344; }
+#portfolio .row {
+  border-bottom: 1px dashed #223344;
+  padding-bottom: 30px; }
 
-#portfolio h3 {
-  font-size: 1.25em;
-  color: #223344;
-  margin-bottom: 0.5em; }
+#portfolio h2 {
+  font-size: 1.25em; }
 
 #portfolio img {
   max-width: 100%;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   border: 1px solid #557faa; }
+
+#portfolio p {
+  margin-top: .7em;
+  font-size: 15px; }
+
+#portfolio ul {
+  margin: 0; }
+
+#portfolio p a {
+  font-weight: bold; }
+
+#portfolio li {
+  margin-bottom: 0;
+  font-size: 15px; }
 
 #resume h3 {
   margin-bottom: 0.5em; }
@@ -598,6 +602,12 @@ footer.row {
   float: right;
   margin-top: 0px;
   font-style: italic; }
+
+.fl-subhead {
+  margin-top: .5em;
+  font-style: italic; }
+  .fl-subhead ~ ul {
+    margin-top: 0; }
 
 input, textarea {
   -webkit-border-radius: 10px;
