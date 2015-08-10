@@ -462,7 +462,7 @@ h2 ~ h2 {
   margin-top: 1.5em; }
 
 h2 {
-  color: #dd4923; }
+  color: #FC475E; }
 
 h3 {
   color: #223344; }
@@ -471,7 +471,7 @@ p {
   margin: 0; }
 
 aside {
-  background-color: rgba(136, 153, 170, 0.2);
+  background-color: #ecf6ff;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: .75em; }
@@ -484,11 +484,11 @@ li {
   margin-bottom: 0.4em; }
 
 a {
-  color: #dd4923; }
+  color: #fb1532; }
   a:hover {
     text-decoration: none; }
   a:visited {
-    color: #eb927b; }
+    color: #8e0214; }
 
 h1 {
   margin-top: 0.5em;
@@ -499,7 +499,7 @@ h1 {
     text-decoration: none;
     color: #223344; }
   h1 span {
-    color: #dd4923;
+    color: #FC475E;
     display: inline-block; }
 
 nav ul {
@@ -511,9 +511,9 @@ nav li {
   background-color: #223344;
   text-align: center; }
   nav li:hover {
-    background-color: #556677; }
+    background-color: #7088a0; }
   nav li.active {
-    background-color: rgba(136, 153, 170, 0.2); }
+    background-color: #ecf6ff; }
 
 nav a, nav a:visited {
   display: inline-block;
@@ -541,21 +541,36 @@ footer.row {
 #contact-link {
   text-align: right; }
 
+input[type='submit'], a.button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  float: right;
+  background-color: #FC475E;
+  font-family: "Roboto Condensed", serif;
+  color: #FFF;
+  padding: 0.5em 1em;
+  text-decoration: none; }
+  input[type='submit']:hover, a.button:hover {
+    background-color: #7088a0; }
+
 .lead {
   margin-top: 0.5em;
   font-size: 1.7em;
   line-height: 1.5em; }
   .lead p ~ p {
-    margin-top: 1em; }
+    margin-top: .75em; }
 
 .lead ~ aside h2 {
   margin-top: 1em; }
 
 .headshot {
-  max-height: 275px;
-  max-width: 275px;
+  max-width: 42%;
   float: left;
-  margin: 0 30px 20px 0; }
+  margin: 0 30px 10px 0; }
 
 #portfolio .row {
   border-bottom: 1px dashed #223344;
@@ -592,6 +607,11 @@ footer.row {
 #resume aside .row {
   margin-bottom: 1em; }
 
+#resume a.button {
+  margin-top: 20px; }
+  #resume a.button img {
+    vertical-align: middle; }
+
 .company, .degree {
   float: left;
   margin-top: 0px;
@@ -621,15 +641,6 @@ label {
   font-weight: bold;
   text-align: right; }
 
-input[type='submit'] {
-  float: right;
-  background-color: #dd4923;
-  font-family: "Roboto Condensed", serif;
-  color: #FFF;
-  padding: 0.5em 1em; }
-  input[type='submit']:hover {
-    background-color: #556677; }
-
 #contact aside p {
   clear: both;
   margin-left: 10px; }
@@ -644,7 +655,7 @@ input[type='submit'] {
   width: 70%;
   padding: 10px 20px 30px;
   margin: 100px auto 0;
-  background-color: rgba(136, 153, 170, 0.2);
+  background-color: #ecf6ff;
   text-align: center; }
   .status-message h2 {
     font-size: 2em;
@@ -674,6 +685,8 @@ input[type='submit'] {
     margin-top: 0px;
     font-size: 1.4em;
     line-height: 1.5em; }
+  .headshot {
+    margin-right: 20px; }
   .col-8 h2 {
     margin-top: 0px; }
   footer {
@@ -690,3 +703,7 @@ input[type='submit'] {
     display: none; }
   .status-message h2 {
     font-size: 1.8em; } }
+
+@media (max-width: 384px) {
+  .headshot {
+    max-width: 100%; } }

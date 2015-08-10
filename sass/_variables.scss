@@ -36,19 +36,22 @@
 
 $font-header: 'Roboto Condensed', serif;
 $font-copy: 'Raleway', sans-serif;
+//$font-copy: 'Lato', sans-serif;
 
 // Colors
-//$color-dark: #445566; // text and nav buttons
-//$color-secondary: #7088a0; // nav rollover
-//$color-accent: #B02E78; // links and h2s
-//$color-light: #ecf6ff; // sidebars and active nav
-//$color-lighter: #FFF; // page background
-
-$color-dark: #223344;
-$color-secondary: #556677; // nav rollover
-$color-accent: #dd4923; // links and h2s
-$color-light: rgba(136, 153, 170, 0.2); // sidebars and active nav
+//$color-dark: #445566; // text and nav buttons - old more faded blue-gray
+$color-dark: #223344; // text and nav buttons
+$color-secondary: #7088a0; // nav rollover
+//$color-accent: #B02E78; // links and h2s - old pink color
+$color-accent: #FC475E; // links and h2s
+$color-light: #ecf6ff; // sidebars and active nav
 $color-lighter: #FFF; // page background
+
+//$color-dark: #223344;
+//$color-secondary: #556677; // nav rollover
+//$color-accent: #dd4923; // links and h2s
+//$color-light: rgba(136, 153, 170, 0.2); // sidebars and active nav
+//$color-lighter: #FFF; // page background
 
 // Corners and shadows
 $border-radius: 10px;

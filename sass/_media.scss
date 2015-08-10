@@ -49,6 +49,10 @@
         line-height: 1.5em;
     }
 
+    .headshot {
+        margin-right: 20px;
+    }
+
     // And resume and contact pages
     .col-8 h2 {
         margin-top: 0px;
@@ -80,5 +84,11 @@
 
     .status-message h2 {
         font-size: 1.8em;
+    }
+}
+
+@media (max-width: 384px) {
+    .headshot {
+        max-width: 100%;
     }
 }

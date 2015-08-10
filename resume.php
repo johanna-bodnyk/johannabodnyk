@@ -1,7 +1,8 @@
 <?php include('_top.php'); ?>
     <main class="row" id="resume">
+
         <div class="col-8">
-            
+
             <h2>Experience</h2>
 
             <h3>Full-Stack Web Developer</h3>
@@ -59,6 +60,7 @@
         </div>
 
         <aside class="col-4">
+
             <h2>Education</h2>
 
             <h3>Harvard Extension School</h3>
@@ -96,6 +98,11 @@
                 <li><strong>Languages and technologies:</strong> PHP, Laravel, Drupal, Java, Python, MySQL, HTML5, CSS3, Sass, Less, Bootstrap, JavaScript, JQuery, AWS, Git</li>
                 <li><strong>Graphic design software:</strong> Adobe Photoshop, InDesign, Illustrator, Bridge</li>
             </ul>
+
         </aside>
+        <a class="button" href="/files/Johanna_Bodnyk_resume.pdf" target="_blank">
+            Download as PDF
+            <img src="images/download.png" title="Download resume" alt="Download resume">
+        </a>
     </main>
 <?php include('_bottom.php'); ?>

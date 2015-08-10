@@ -89,14 +89,14 @@ li {
 }
 
 a {
-    color: $color-accent;
+    color: darken($color-accent, 10%);
 
     &:hover {
         text-decoration: none;
     }
 
     &:visited {
-        color: lighten($color-accent, 20%);
+        color: darken($color-accent, 35%);
     }
 }
 
@@ -183,6 +183,25 @@ footer.row {
     text-align: right;
 }
 
+// Buttons
+
+input[type='submit'], a.button {
+
+    @include rounded-corners;
+    border: none;
+    padding: 5px;
+    float: right;
+    background-color: $color-accent;
+    font-family: $font-header;
+    color: $color-lighter;
+    padding: 0.5em 1em;
+
+    &:hover {
+        background-color: $color-secondary;
+    }
+
+    text-decoration: none;
+}
 
 // Homepage
 
@@ -192,7 +211,7 @@ footer.row {
     line-height: 1.5em;
 
     p ~ p {
-        margin-top: 1em;
+        margin-top: .75em;
     }
 }
 
@@ -201,10 +220,9 @@ footer.row {
 }
 
 .headshot {
-    max-height: 275px;
-    max-width: 275px;
+    max-width: 42%;
     float: left;
-    margin: 0 30px 20px 0;
+    margin: 0 30px 10px 0;
 }
 
 // Portfolio
@@ -276,7 +294,17 @@ footer.row {
     aside .row {
         margin-bottom: 1em;
     }
+
+    a.button {
+
+        margin-top: 20px;
+
+        img {
+            vertical-align: middle;
+        }
+    }
 }
+
 
 .company, .degree {
     float: left;
@@ -312,18 +340,6 @@ input, textarea {
 label {
     font-weight: bold;
     text-align: right;
-}
-
-input[type='submit'] {
-    float: right;
-    background-color: $color-accent;
-    font-family: $font-header;
-    color: $color-lighter;
-    padding: 0.5em 1em;
-
-    &:hover {
-        background-color: $color-secondary;
-    }
 }
 
 #contact aside p {
