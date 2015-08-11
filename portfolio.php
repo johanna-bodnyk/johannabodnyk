@@ -50,7 +50,7 @@
                         <source srcset="images/movietoxml-588px.png" media="(min-width: 900px)">
                         <source srcset="images/movietoxml-338px.png" media="(min-width: 650px)">
                         <source srcset="images/movietoxml-588px.png" media="(min-width: 400px)">
-                        <img srcset="images/movietoxml-338px.png" alt="The Circle School Meadow Campus Dream Campaign.">
+                        <img srcset="images/movietoxml-338px.png" alt="Code.">
                     </picture>
                 </a>
                 <p>Python script to parse a SQLite database to XML files, created as an assignment for a database systems class.</p>
@@ -64,13 +64,24 @@
             </section>
             <section class="col-6">
                 <h2>"Tetris" Mobile Web App</h2>
+                <a href="http://tetris.higabba.biz">
+                    <picture>
+                        <source srcset="images/tetris-588px.png" media="(min-width: 900px)">
+                        <source srcset="images/tetris-338px.png" media="(min-width: 650px)">
+                        <source srcset="images/tetris-588px.png" media="(min-width: 400px)">
+                        <img srcset="images/tetris-338px.png" alt="Tetris gameplay screenshot.">
+                    </picture>
+                </a>
+                <p>JavaScript version of the classic game, created as an assignment for a mobile development class.
+                <p>
+                    <a href="http://tetris.higabba.biz">Demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/johanna-bodnyk/tetris">Code</a>
+                </p>
+                <p>Built with:</p>
+                <ul>
+                    <li>Straight JavaScript (project requirement)</li>
+                </ul>
+            </section>
+        </section>
 
-            </section>
-        </section>
-        <section class="row">
-            <section class="col-6">
-                <h2>Java Knitting Pattern Parser</h2>
-            </section>
-        </section>
     </main>
 <?php include('_bottom.php'); ?>

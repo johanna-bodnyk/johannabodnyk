@@ -85,7 +85,29 @@
     .status-message h2 {
         font-size: 1.8em;
     }
+
+    // Dotted lines between portfolio items instead of rows
+    #portfolio {
+
+        .row {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .col-6 {
+            margin-bottom: 30px;
+        }
+
+        .col-6 ~ .col-6 {
+            @include divider-border('top');
+            padding-top: 10px;
+        }
+    }
+
+
 }
+
 
 @media (max-width: 384px) {
     .headshot {

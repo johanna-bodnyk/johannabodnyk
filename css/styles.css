@@ -475,8 +475,6 @@ aside {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: .75em; }
-  aside h3 {
-    color: #16212c; }
   aside a {
     font-weight: bold; }
 
@@ -559,7 +557,7 @@ input[type='submit'], a.button {
 
 .lead {
   margin-top: 0.5em;
-  font-size: 1.7em;
+  font-size: 1.6em;
   line-height: 1.5em; }
   .lead p ~ p {
     margin-top: .75em; }
@@ -573,11 +571,15 @@ input[type='submit'], a.button {
   margin: 0 30px 10px 0; }
 
 #portfolio .row {
-  border-bottom: 1px dashed #223344;
-  padding-bottom: 30px; }
+  margin-bottom: 30px; }
+
+#portfolio .row ~ .row {
+  border-top: 1px dashed #223344;
+  padding-top: 10px; }
 
 #portfolio h2 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  color: #223344; }
 
 #portfolio img {
   max-width: 100%;
@@ -702,7 +704,16 @@ label {
   #contact-link {
     display: none; }
   .status-message h2 {
-    font-size: 1.8em; } }
+    font-size: 1.8em; }
+  #portfolio .row {
+    margin: 0;
+    padding: 0;
+    border: none; }
+  #portfolio .col-6 {
+    margin-bottom: 30px; }
+  #portfolio .col-6 ~ .col-6 {
+    border-top: 1px dashed #223344;
+    padding-top: 10px; } }
 
 @media (max-width: 384px) {
   .headshot {

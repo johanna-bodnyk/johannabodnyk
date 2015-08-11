@@ -19,8 +19,8 @@
             <p class="fl-subhead">Website &amp; Online Course Platform &mdash; Women's Coding Collective (March 2015 &ndash; present):</p>
             <ul>
                 <li>Working on a team with two other developers to migrate site (<a href="http://thewc.co">thewc.co</a>) from a custom PHP framework to Laravel 4.</li>
-                <li>Sections and features I have built to date include sign-up and authentication, password resetting, profile and avatar editing, referral discounts, JavaScript validation and messaging, and the admin interface.</li>
                 <li>Wrote script to convert and migrate avatar images for 5000+ users from current web server to Amazon S3 (asset storage solution for new site).</li>
+                <li>Additional features I have built to date include sign-up and authentication, password resetting, profile and avatar editing, referral discounts, JavaScript validation and messaging, and the admin interface.</li>
              </ul>
 
             <h3>Web Editor &amp; Communications Coordinator</h3>
@@ -95,7 +95,7 @@
 
             <h2>Skills</h2>
             <ul>
-                <li><strong>Languages and technologies:</strong> PHP, Laravel, Drupal, Java, Python, MySQL, HTML5, CSS3, Sass, Less, Bootstrap, JavaScript, JQuery, AWS, Git</li>
+                <li><strong>Languages and technologies:</strong> PHP, Laravel, Drupal, Java, Python, MySQL, JavaScript, JQuery, HTML5, CSS3, Sass, Less, Bootstrap, AWS, Git</li>
                 <li><strong>Graphic design software:</strong> Adobe Photoshop, InDesign, Illustrator, Bridge</li>
             </ul>
 

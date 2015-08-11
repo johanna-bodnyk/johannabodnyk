@@ -69,16 +69,11 @@ p {
 
 aside  {
     background-color: $color-light;
-    // @include rounded-corners;
-    // @include drop-shadow;
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: .75em;
 
-    // Increase link and h3 legibility on darker aside background
-    h3 {
-        color: darken($color-dark, 7%);
-    }
+    // Increase link legibility on darker aside background
     a {
         font-weight: bold;
     }
@@ -134,7 +129,6 @@ nav {
     }
 
     li {
-        // @include rounded-corners;
         background-color: $color-dark;
         text-align: center;
 
@@ -144,7 +138,6 @@ nav {
 
         &.active {
             background-color: $color-light;
-            // @include standard-border;
         }
     }
 
@@ -207,7 +200,7 @@ input[type='submit'], a.button {
 
 .lead {
     margin-top: 0.5em;
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-height: 1.5em;
 
     p ~ p {
@@ -247,12 +240,17 @@ input[type='submit'], a.button {
     //}
 
     .row {
-        @include divider-border('bottom'); //TODO: Fix in collapsed layout
-        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .row ~ .row {
+        @include divider-border('top');
+        padding-top: 10px;
     }
 
     h2 {
         font-size: 1.25em;
+        color: $color-dark;
     }
 
     img {
