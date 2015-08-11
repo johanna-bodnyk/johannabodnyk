@@ -20,6 +20,6 @@
             <h2>Find me on&hellip;</h2>
             <p><a href="http://www.linkedin.com/in/johannabodnyk"><img src="images/linkedin.png" title="LinkedIn" alt="LinkedIn">LinkedIn</a></p>
             <p><a href="https://github.com/johanna-bodnyk"><img src="images/github.png" title="Github" alt="Github">Github</a></p>
-            <p><a href="#"><img src="images/piazza.png" title="Piazza" alt="Piazza">Piazza Careers</a></p>
+            <p><a href="https://piazza.com/careers/dashboard#/my_profile/hkzvm6e8qn82e9"><img src="images/piazza.png" title="Piazza" alt="Piazza">Piazza Careers</a></p>
             </ul>
         </aside>
