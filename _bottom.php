@@ -13,5 +13,6 @@
         <a href="contact">Contact</a>
     </div>
 </footer>
+<script type="text/javascript" src="/js/picturefill.min.js"></script>
 </body>
 </html>
