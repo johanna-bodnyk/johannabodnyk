@@ -10,13 +10,13 @@
                 <p class="company">Freelance</p>
                 <p class="date">2014&ndash;present</p>
             </div>
-            <p class="fl-subhead">Fundraising Website &mdash; The Circle School (launched February 2015):</p>
+            <p class="fl-subhead">Fundraising Website &mdash; The Circle School (launched Feb. 2015):</p>
             <ul>
                 <li>Solo developer for a PHP/MySQL-driven website (<a href="http://meadowcampus.org">meadowcampus.org</a>) to support the school's fundraising campaign to build a new campus.</li>
-                <li>Planned functionality in consultation with fundraising team, chose technologies (Laravel 4, Bootstrap, JQuery), developed, tested, and launched site.</li>
+                <li>Planned functionality in consultation with fundraising team, chose technologies and frameworks (Laravel 4, Bootstrap, JQuery), developed, tested, and launched site.</li>
                 <li>Features include JavaScript pledge calculators, a CSS-animated campaign thermometer, and a custom admin interface allowing staff to post blog entries, add donor records, and update thermometer total.</li>
             </ul>
-            <p class="fl-subhead">Website &amp; Online Course Platform &mdash; Women's Coding Collective (March 2015 &ndash; present):</p>
+            <p class="fl-subhead">Website &amp; Online Course Platform &mdash; Women's Coding Collective (Mar. 2015 &ndash; present):</p>
             <ul>
                 <li>Working on a team with two other developers to migrate site (<a href="http://thewc.co">thewc.co</a>) from a custom PHP framework to Laravel 4.</li>
                 <li>Wrote script to convert and migrate avatar images for 5000+ users from current web server to Amazon S3 (asset storage solution for new site).</li>
@@ -66,7 +66,7 @@
             <h3>Harvard Extension School</h3>
             <div class="row">
                 <p class="degree">Certificate in Web Technologies</p>
-                <p class="date">June 2015</p>
+                <p class="date">May 2015</p>
             </div>
             <p>Courses including:</p>
             <ul>

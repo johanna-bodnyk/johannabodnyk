@@ -82,6 +82,20 @@
                 </ul>
             </section>
         </section>
+        <section class="row">
+            <section class="col-6">
+                <h2>Java Knitting Pattern Translator</h2>
+                <p>A desktop Java program with a Swing GUI that parses written knitting pattern instructions using standard abbreviations into graphical knitting pattern charts.</p>
+                <p>
+                    <a href="https://github.com/johanna-bodnyk/knittingeditor">Code</a>
+                </p>
+                <p>Built with:</p>
+                <ul>
+                    <li>Java, with Swing</li>
+                </ul>
+            </section>
+
+        </section>
 
     </main>
 <?php include('_bottom.php'); ?>
